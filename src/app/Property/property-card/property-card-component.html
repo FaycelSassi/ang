@@ -1,13 +1,14 @@
-<div class="row">
-  <div class="shadow-lg col-sm-4 p-3">
     <div class="card">
-      <img class="CardImg" src="assets/Images/IronMan.jpg">
-      <div class="card-body p-2">
-        <h1>{{Property.Id}}</h1>
-        <h1>{{Property.name}}</h1>
-        <h2>{{Property.type}}</h2>
-        <h3>{{Property.ability}}</h3>
+      <div class="img-wrap">
+        <img class="card__cover" src="assets/Images/Mercedes.jpeg">
+        <ul class="list-inline text-center member-icons animate">
+          <li class="list-inline-item"><button class="btn"><i class="fa-solid fa-eye"></i></button></li>
+          <li class="list-inline-item"><button class="btn"><i class="fa-solid fa-trash"></i></button></li>
+        </ul>
+     </div>
+      <div class="card__content p-2">
+        Team Name:<h2>{{Property.name}}</h2>
+        Points:<h2>{{Property.Points}}</h2>
+        Principal:<h2>{{Property.TeamPrincipal}}</h2>
       </div>
     </div>
-  </div>
-</div>
